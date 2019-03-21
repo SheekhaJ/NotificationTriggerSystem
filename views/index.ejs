@@ -308,6 +308,18 @@
                         <div class="validate"></div>
                     </div>
                     <div class="form-group">
+                        <input type="date" name="date" class="form-control" id="notification-date" placeholder="Date"
+                            data-msg="Please select valid date">
+                        <div class="validate"></div>
+                    </div>
+                    <div class="form-group">
+                        <select id="pet-select">
+                            <option value="">--Please choose an option--</option>
+                            <option value="dog">Dog</option>
+                            <option value="cat">Cat</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
                         <!-- <input type="text" name="subject" class="form-control" id="contact-subject"
                                 placeholder="Subject" data-rule="minlen:4"
                                 data-msg="Please enter at least 8 chars of subject"> -->
@@ -318,8 +330,9 @@
                     </div>
 
                     <div class="form-group">
-                        <textarea class="form-control" name="message" id="contact-message" placeholder="Notification details"
-                            rows="3" data-rule="required" data-msg="Please write something for us"></textarea>
+                        <textarea class="form-control" name="message" id="contact-message"
+                            placeholder="Notification details" rows="3" data-rule="required"
+                            data-msg="Please write something for us"></textarea>
                         <div class="validate"></div>
                     </div>
 
